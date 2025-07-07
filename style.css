@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0d0d0d;
+  color: #fff;
+  overflow-x: hidden;
+}
+header {
+  text-align: center;
+  padding: 2rem;
+}
+.gofundme-btn {
+  background: #ff00ff;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.character-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.tiers {
+  text-align: center;
+  margin-top: 4rem;
+}
+.tier-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ff00ff;
+  padding: 1rem;
+  width: 150px;
+  border-radius: 12px;
+}
